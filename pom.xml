@@ -16,6 +16,9 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.projectKey>jozseftiborcz_sast-eval-springboot1</sonar.projectKey>
+		<sonar.organization>jozseftiborcz</sonar.organization>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
 	<dependencies>
@@ -54,9 +57,4 @@
 			</plugin>
 		</plugins>
 	</build>
-<properties>
-  <sonar.projectKey>jozseftiborcz_sast-eval-springboot1</sonar.projectKey>
-  <sonar.organization>jozseftiborcz</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
 </project>
