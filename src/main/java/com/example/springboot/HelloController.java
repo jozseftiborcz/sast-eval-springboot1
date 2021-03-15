@@ -8,7 +8,11 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index(String data) {
-		return "Greetings from Spring Boot!" + data; 
+		return "Greetings from Spring Boot!" + data;
 	}
 
+	@RequestMapping("/foo")
+	public String foo(String data) {
+		return BarController.echoer(data);
+	}
 }
